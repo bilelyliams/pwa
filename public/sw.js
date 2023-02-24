@@ -15,10 +15,10 @@ if ('serviceWorker' in navigator) {
       caches.open('my-pwa-cache1').then(function(cache) {
         return cache.addAll([
           '/',
-          '/public/index.html',
-          '/public/assets/css/templatemo-softy-pinko.css',
-          '/public/assets/js/custom.js',
-          '/public/assets/images/logo.png'
+          '/index.html',
+          '/assets/css/templatemo-softy-pinko.css',
+          '/assets/js/custom.js',
+          '/assets/images/logo.png'
         ]);
       })
     );

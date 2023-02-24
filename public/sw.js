@@ -15,7 +15,7 @@ if ('serviceWorker' in navigator) {
       caches.open('my-pwa-cache1').then(function(cache) {
         return cache.addAll([
           '/',
-          '/index.html',
+//           '/index.html',
 //           '/assets/css/templatemo-softy-pinko.css',
 //           '/assets/js/custom.js',
 //           '/assets/images/logo.png'

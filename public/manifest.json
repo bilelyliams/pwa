@@ -1,0 +1,29 @@
+{
+    "name": "Soft Pinko",
+    "short_name": "Soft Pinko",
+    "display": "standalone",
+    "background_color": "#8261ee",
+    "theme_color": "#ff589e",
+    "orientation": "portrait",
+    "scope": "public/",
+    "start_url": "public/index.html",
+    "icons": [
+      {
+        "src": "/public/assets/images/256.png",
+        "sizes": "256x256",
+        "type" : "image/png"
+      },
+      {
+        "src": "/public/assets/images/512p.png",
+        "sizes": "512x512",
+        "type" : "image/png"
+      },
+      {
+        "src": "/public/assets/images/maskable72.png",
+        "sizes": "72x72",
+        "type" : "image/png",
+        "purpose" : "maskable"
+      }
+    ]
+  }
+  

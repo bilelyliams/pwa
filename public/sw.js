@@ -16,9 +16,9 @@ if ('serviceWorker' in navigator) {
         return cache.addAll([
           '/',
           '/index.html',
-          '/assets/css/templatemo-softy-pinko.css',
-          '/assets/js/custom.js',
-          '/assets/images/logo.png'
+//           '/assets/css/templatemo-softy-pinko.css',
+//           '/assets/js/custom.js',
+//           '/assets/images/logo.png'
         ]);
       })
     );
